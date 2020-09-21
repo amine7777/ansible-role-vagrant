@@ -25,7 +25,7 @@ vagrant_version: 2.2.2
 ```
 This is the url where vagrant will be downloaded.
 ```yaml
-vagrant_download_url: https://releases.hashicorp.com/vagrant/{{ vagrant_version }}/{{ vagrant_package_debian }}
+vagrant_download_url: https://releases.hashicorp.com/vagrant/{{ vagrant_version }}/{{ vagrant_package_name }}
 ```
 This is vagrant the package name.
 ```yaml
