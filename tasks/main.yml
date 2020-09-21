@@ -1,0 +1,27 @@
+---
+# tasks file for vagrant
+- name: install vagrant Debian os family
+  block:
+    - name: download vagrant package
+      get_url:
+        url: "{{ vagrant_download_url }}.deb"
+        dest: /tmp
+      changed_when: false
+
+    - name: Install vagrant
+      command: dpkg -i "/tmp/{{ vagrant_package_name }}"
+      changed_when: false
+  when: ansible_os_family == "Debian"
+
+- name: install vagrant RedHat os family
+  block:
+    - name: Download vagrant package
+      get_url:
+        url: "{{ vagrant_download_url }}.rpm"
+        dest: /tmp
+      changed_when: false
+
+    - name: Install vagrant
+      command: yum install -y "/tmp/{{ vagrant_package_name }}"
+      changed_when: false
+  when: ansible_os_family == "RedHat"

@@ -1,0 +1,7 @@
+---
+# defaults file for vagrant
+
+vagrant_version: 2.2.2
+
+vagrant_package_name: vagrant_{{ vagrant_version }}_x86_64
+vagrant_download_url: https://releases.hashicorp.com/vagrant/{{ vagrant_version }}/{{ vagrant_package_debian }}
