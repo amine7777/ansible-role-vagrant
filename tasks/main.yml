@@ -12,7 +12,6 @@
       command: dpkg -i "/tmp/{{ vagrant_package_name }}.deb"
       changed_when: false
 
-
 - when: ansible_os_family == "Centos"
   block:
     - name: Download vagrant package
@@ -22,8 +21,9 @@
       changed_when: false
 
     - name: Install vagrant
-      command: yum install -y "/tmp/{{ vagrant_package_name }}.rpm"
-      changed_when: false
+      yum:
+        name: "/tmp/{{ vagrant_package_name }}.rpm"
+        state: present
 
 - when: ansible_os_family == "Fedora"
   block:
@@ -34,5 +34,6 @@
       changed_when: false
 
     - name: Install vagrant
-      command: yum install -y "/tmp/{{ vagrant_package_name }}.rpm"
-      changed_when: false
+      yum:
+        name: "/tmp/{{ vagrant_package_name }}.rpm"
+        state: present
