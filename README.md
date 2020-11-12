@@ -4,9 +4,9 @@ Ansible role: Vagrant
 This role helps you to install vagrant on your linux machine.
 
 
-|Travis|CircleCI|GitHub|Quality|Downloads|Version|
-|------|--------|------|-------|---------|-------|
-|[![travis](https://travis-ci.com/amine7777/ansible-role-vagrant.svg?branch=master)](https://travis-ci.com/amine7777/ansible-role-vagrant)|![circleci](https://circleci.com/gh/amine7777/ansible-role-vagrant.svg?style=svg)|[![github](https://github.com/amine7777/ansible-role-vagrant/workflows/CI/badge.svg)](https://github.com/amine7777/ansible-role-vagrant/actions)|[![quality](https://img.shields.io/ansible/quality/50864)](https://galaxy.ansible.com/amine7777/vagrant)|[![downloads](https://img.shields.io/ansible/role/d/50348)](https://galaxy.ansible.com/amine7777/vagrant)|[![Version](https://img.shields.io/github/release/amine7777/ansible-role-vagrant.svg)](https://github.com/amine7777/ansible-role-vagrant/releases/)|
+|Travis|GitHubActions|Quality|Downloads|Version|
+|------|-------------|-------|---------|-------|
+|[![travis](https://travis-ci.com/amine7777/ansible-role-vagrant.svg?branch=master)](https://travis-ci.com/amine7777/ansible-role-vagrant)|[![github](https://github.com/amine7777/ansible-role-vagrant/workflows/CI/badge.svg)](https://github.com/amine7777/ansible-role-vagrant/actions)|[![quality](https://img.shields.io/ansible/quality/50864)](https://galaxy.ansible.com/amine7777/vagrant)|[![downloads](https://img.shields.io/ansible/role/d/50864)](https://galaxy.ansible.com/amine7777/vagrant)|[![Version](https://img.shields.io/github/release/amine7777/ansible-role-vagrant.svg)](https://github.com/amine7777/ansible-role-vagrant/releases/)|
 
 ![](vagrant.jpg)
 
