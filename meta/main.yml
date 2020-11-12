@@ -23,6 +23,6 @@ galaxy_info:
         - all
   galaxy_tags:
     - system
-    - VM
+    - vm
     - vagrant
     - virtualbox
